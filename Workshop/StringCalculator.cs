@@ -26,7 +26,7 @@ namespace Workshop
                 char separator = str[2];
                 numbers = str.Substring(4).Split(',', '\n',separator);
             }
-            else numbers = str.Split(',', '\n');
+            else numbers = str.Split(',');
 
             foreach (var number in numbers)
             {
